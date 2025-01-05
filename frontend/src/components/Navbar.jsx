@@ -55,7 +55,7 @@ const [token, setToken] = useState(true)
               </div> 
             </div>
           </div>
-        : <button onClick={()=>setToken(true)} className=" bg-primary text-white px-8 py-3 rounded-full font-light">
+        : <button onClick={()=>setToken(true)} className=" bg-primary text-white px-7 py-3 rounded-full font-light ">
             Create Account
           </button>}
         
