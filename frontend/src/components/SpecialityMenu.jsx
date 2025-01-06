@@ -6,7 +6,7 @@ const SpecialityMenu = () => {
     return (
         <div className=' flex gap-4 flex-col items-center py-16' id="#speciality">
             <h1 className=' text-3xl font-medium '> Find by Specialtiy</h1>
-            <p className='sm:w-13 text-center text-sm'>
+            <p className='sm:w-1/3 text-center text-sm'>
                 Lorem ipsum dolor sit amet consectetur<br /> adipisicing elit. Ullam vero
             </p>
             <div  className='flex sm:justify-center gap-4 pt-5 w-full overflow-scroll'>

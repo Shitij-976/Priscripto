@@ -9,6 +9,7 @@ import MyProfile from './pages/MyProfile';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 // 
 //   const [darkMode, setDarkMode] = useState(false); // Dark mode state
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/my-appointment" element={<MyAppointment />} />
           <Route path="/my-profile" element={<MyProfile />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
